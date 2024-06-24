@@ -30,7 +30,6 @@ public class AuthService {
     private final JwtProvider jwtProvider;
     private final PasswordEncoder passwordEncoder;
 
-
     @Transactional
     public SignUpResponseDTO signUp(SignUpRequestDTO signUpRequestDTO) {
         //이메일 중복 확인
