@@ -3,8 +3,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/renteasy
     driver-class-name: org.postgresql.Driver
-    username: seyunkim
-    password: 1234
+    username:
+    password:
   jpa:
     properties:
       hibernate:
